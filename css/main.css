@@ -158,46 +158,46 @@ div.arrow {
         margin-top:-20px;
     }
 }
-
- #flowers { 
--webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-
--webkit-animation: rotate  linear infinite;
-  animation: rotate 4.3s linear infinite;
-
-display: inline-block;
+.clockwise{
+  position: relative;
+  
 }
+
+.counterclockwise {
+  position:absolute;
+  top: 117px;
+
+}
+ #flowerlong { 
+  -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+  -webkit-animation: rotate 12s linear infinite;
+    animation: rotate 12s linear infinite;
+
+ 
+}
+
+#flowershort { 
+  -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+  -webkit-animation: rotate 12s linear infinite;
+    animation: rotate 12s linear infinite;
+
+}
+
 @-webkit-keyframes rotate {
-0% {
--webkit-transform: rotate(0deg);
-}
-100% {
--webkit-transform: rotate(360deg);
-}
-}
-@keyframes rotate {
-0% {
-transform: rotate(0deg);
-}
-100% {
-transform: rotate(360deg);
-}
-} 
-
-/* #flowers {
-  -webkit-animation:change-color 4s ease 0s infinite normal;
-  -moz-animation:change-color 4s ease 0s infinite normal;
-  -ms-animation:change-color 4s ease 0s infinite normal;
-  animation:change-color 4s ease 1s infinite normal;
-}
-
-@-webkit-keyframes change-color {
-  0%{ background-color:#c73c63; }
-  100%{ background-color:red; }
+  0% {
+    -webkit-transform: rotate(0deg);
   }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
 
-#long04 {
-  fill:darkred !important;
 
-}  */
+
+
+
+
