@@ -71,9 +71,9 @@ div.arrow {
     z-index:1;
     left:50%;
     top:85%;
-    width:100px;
-    height:40px;
-    font-size: 48px;
+    width:60px;
+    height:30px;
+    font-size: 22px;
     transform: scaleY(0.6);
     animation-name: arrow;
     animation-duration: 2s;
